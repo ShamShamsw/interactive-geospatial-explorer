@@ -1,0 +1,217 @@
+[
+  {
+    "config": {
+      "cluster_count": 3,
+      "max_cluster_iterations": 20,
+      "choropleth_metric": "point_count",
+      "zoom_start": 4,
+      "created_at": "2026-03-16T19:05:30Z"
+    },
+    "point_count": 12,
+    "points": [
+      {
+        "name": "Seattle",
+        "latitude": 47.6062,
+        "longitude": -122.3321,
+        "region": "west",
+        "category": "tech",
+        "population": 733919,
+        "cluster_id": 0
+      },
+      {
+        "name": "San Francisco",
+        "latitude": 37.7749,
+        "longitude": -122.4194,
+        "region": "west",
+        "category": "tech",
+        "population": 808437,
+        "cluster_id": 1
+      },
+      {
+        "name": "Los Angeles",
+        "latitude": 34.0522,
+        "longitude": -118.2437,
+        "region": "west",
+        "category": "media",
+        "population": 3849297,
+        "cluster_id": 1
+      },
+      {
+        "name": "Denver",
+        "latitude": 39.7392,
+        "longitude": -104.9903,
+        "region": "central",
+        "category": "logistics",
+        "population": 713252,
+        "cluster_id": 1
+      },
+      {
+        "name": "Chicago",
+        "latitude": 41.8781,
+        "longitude": -87.6298,
+        "region": "central",
+        "category": "finance",
+        "population": 2664452,
+        "cluster_id": 2
+      },
+      {
+        "name": "Dallas",
+        "latitude": 32.7767,
+        "longitude": -96.797,
+        "region": "south",
+        "category": "energy",
+        "population": 1302868,
+        "cluster_id": 2
+      },
+      {
+        "name": "Austin",
+        "latitude": 30.2672,
+        "longitude": -97.7431,
+        "region": "south",
+        "category": "tech",
+        "population": 979882,
+        "cluster_id": 2
+      },
+      {
+        "name": "Atlanta",
+        "latitude": 33.749,
+        "longitude": -84.388,
+        "region": "south",
+        "category": "logistics",
+        "population": 510823,
+        "cluster_id": 2
+      },
+      {
+        "name": "New York City",
+        "latitude": 40.7128,
+        "longitude": -74.006,
+        "region": "east",
+        "category": "finance",
+        "population": 8258035,
+        "cluster_id": 2
+      },
+      {
+        "name": "Boston",
+        "latitude": 42.3601,
+        "longitude": -71.0589,
+        "region": "east",
+        "category": "education",
+        "population": 653833,
+        "cluster_id": 2
+      },
+      {
+        "name": "Miami",
+        "latitude": 25.7617,
+        "longitude": -80.1918,
+        "region": "east",
+        "category": "tourism",
+        "population": 455924,
+        "cluster_id": 2
+      },
+      {
+        "name": "Washington DC",
+        "latitude": 38.9072,
+        "longitude": -77.0369,
+        "region": "east",
+        "category": "government",
+        "population": 678972,
+        "cluster_id": 2
+      }
+    ],
+    "clusters": [
+      {
+        "cluster_id": 0,
+        "centroid": {
+          "latitude": 47.6062,
+          "longitude": -122.3321
+        },
+        "point_names": [
+          "Seattle"
+        ],
+        "size": 1
+      },
+      {
+        "cluster_id": 1,
+        "centroid": {
+          "latitude": 37.188766666666666,
+          "longitude": -115.21780000000001
+        },
+        "point_names": [
+          "San Francisco",
+          "Los Angeles",
+          "Denver"
+        ],
+        "size": 3
+      },
+      {
+        "cluster_id": 2,
+        "centroid": {
+          "latitude": 35.8016,
+          "longitude": -83.6064375
+        },
+        "point_names": [
+          "Chicago",
+          "Dallas",
+          "Austin",
+          "Atlanta",
+          "New York City",
+          "Boston",
+          "Miami",
+          "Washington DC"
+        ],
+        "size": 8
+      }
+    ],
+    "region_stats": [
+      {
+        "region": "central",
+        "point_count": 2,
+        "total_population": 3377704,
+        "category_mix": {
+          "logistics": 1,
+          "finance": 1
+        },
+        "intensity_score": 1688852.0
+      },
+      {
+        "region": "east",
+        "point_count": 4,
+        "total_population": 10046764,
+        "category_mix": {
+          "finance": 1,
+          "education": 1,
+          "tourism": 1,
+          "government": 1
+        },
+        "intensity_score": 2511691.0
+      },
+      {
+        "region": "south",
+        "point_count": 3,
+        "total_population": 2793573,
+        "category_mix": {
+          "energy": 1,
+          "tech": 1,
+          "logistics": 1
+        },
+        "intensity_score": 931191.0
+      },
+      {
+        "region": "west",
+        "point_count": 3,
+        "total_population": 5391653,
+        "category_mix": {
+          "tech": 2,
+          "media": 1
+        },
+        "intensity_score": 1797217.6666666667
+      }
+    ],
+    "output_files": {
+      "points_map": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\10-interactive-geospatial-explorer\\data\\outputs\\points_map.html",
+      "clusters_map": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\10-interactive-geospatial-explorer\\data\\outputs\\clusters_map.html",
+      "choropleth_map": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\10-interactive-geospatial-explorer\\data\\outputs\\choropleth_map.html"
+    },
+    "saved_at": "2026-03-16T19:05:38Z"
+  }
+]
